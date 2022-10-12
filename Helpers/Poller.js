@@ -1,4 +1,4 @@
-export const Poll = (callback, timeout, interval) => {
+const Poll = (callback, timeout, interval) => {
   let endTime = Number(new Date()) + (timeout || 2000);
   interval = interval || 100;
 
